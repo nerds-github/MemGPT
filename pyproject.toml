@@ -21,7 +21,7 @@ questionary = "^2.0.1"
 pytz = "^2023.3.post1"
 tqdm = "^4.66.1"
 black = {extras = ["jupyter"], version = "^24.2.0"}
-setuptools = "^68.2.2"
+setuptools = ">=68.2.2,<71.0.0"
 datasets = { version = "^2.14.6", optional = true}
 prettytable = "^3.9.0"
 pgvector = { version = "^0.2.3", optional = true }
